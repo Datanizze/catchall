@@ -23,7 +23,9 @@ If you want to link example.com and www.example.com create a symlink instead `ln
 
 ## Notes
 Above Paths are just examples, use your brain...
+
 This needs to be run as root, of course.
+
 Tested on debian squeeze & wheezy.
 
 ## License
