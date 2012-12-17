@@ -9,6 +9,14 @@ Just for personal use but someone might get some use out of this... Don't expect
 	cd catchall
 	./doit.sh /path/to/my/public_html
 
+## Results
+If your public\_html path is /home/user/public\_html/ and you have a domain example.com.
+If you then create a directory test in public\_html (/home/user/public\_html/test) then you will be able to access that directory directly through http://test.example.com
+
+If you want a standard www.example.com then just create a folder called www.
+If you want acces to just example.com then create a folder named example (where example is the same name as your domain).
+If you want to link example.com and www.example.com create a symlink instead `ln -s /home/user/public_html/www /home/user/public_html/example`.
+
 ## Notes
 Above Paths are just examples, use your brain
 
