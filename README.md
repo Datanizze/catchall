@@ -22,7 +22,9 @@ If you want acces to just example.com then create a folder named example (where 
 If you want to link example.com and www.example.com create a symlink instead `ln -s /home/user/public_html/www /home/user/public_html/example`.
 
 ## Notes
-Above Paths are just examples, use your brain
+Above Paths are just examples, use your brain...
+This needs to be run as root, of course.
+Tested on debian squeeze & wheezy.
 
 ## License
 Free for all and no responsibity on me!
