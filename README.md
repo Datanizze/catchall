@@ -32,4 +32,4 @@ Tested on debian wheezy & jessie (post 2.4 commit)
 Assumes apache to be in /etc/apache2/
 
 ## License
-Free for all and no responsibity on me!
+Free for all and _no_ responsibility on me!
