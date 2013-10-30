@@ -26,7 +26,10 @@ Above Paths are just examples, use your brain...
 
 This needs to be run as root, of course.
 
-Tested on debian squeeze & wheezy.
+Tested on debian squeeze & wheezy. (pre 2.4 commit)
+Tested on debian wheezy & jessie (post 2.4 commit)
+
+assumes apache's location to be in /etc/apache2/
 
 ## License
 Free for all and no responsibity on me!
