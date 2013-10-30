@@ -20,7 +20,7 @@ APACHE_SITES="/etc/apache2/sites-available"
 
 cp ${WORKING_DIR}/catchall ${APACHE_SITES}
 
-sed -i -e "s#REPLACE_THIS#$1#g" ${APACHE_SITES}/catchall
+sed -i -e "s#REPLACE_THIS#$1#g" ${APACHE_SITES}/catchall.conf
 
 a2enmod vhost_alias
 a2ensite catchall
