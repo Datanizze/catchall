@@ -18,7 +18,7 @@ fi
 WORKING_DIR=`echo $0 | awk 'BEGIN{FS=OFS="/"}{$NF=""; NF--; print}'`
 APACHE_SITES="/etc/apache2/sites-available"
 
-cp ${WORKING_DIR}/catchall ${APACHE_SITES}
+cp ${WORKING_DIR}/catchall.conf ${APACHE_SITES}
 
 sed -i -e "s#REPLACE_THIS#$1#g" ${APACHE_SITES}/catchall.conf
 
